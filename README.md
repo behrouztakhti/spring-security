@@ -44,7 +44,7 @@ Run the command below to start the Docker containers from the **docker-compose.y
 ```
 ## To view swagger API docs
 Run the server and browse to http://localhost:3030/swagger-ui/index.html
-![swagger](https://github.com/behrouztakhti/spring-security/assets/6881159/3499be04-c0f6-46f4-839a-9426b99d2622)
+![swagger](https://github.com/behrouztakhti/spring-security/assets/6881159/28626ce9-fdde-473b-a053-43badd43e971)
 
 
 ## Schema
