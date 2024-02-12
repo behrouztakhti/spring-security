@@ -48,6 +48,7 @@ Run the server and browse to http://localhost:3030/swagger-ui/index.html
 
 
 ## Schema
+![schema](https://github.com/behrouztakhti/spring-security/assets/6881159/985eacbe-3efa-4516-a4d5-7d57f7d2bda4)
 
 
 
