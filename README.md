@@ -46,6 +46,9 @@ Run the command below to start the Docker containers from the **docker-compose.y
 Run the server and browse to http://localhost:3030/swagger-ui/index.html
 ![swagger](https://github.com/behrouztakhti/spring-security/assets/6881159/28626ce9-fdde-473b-a053-43badd43e971)
 
+## Curl-Sample
+![curl-sample](https://github.com/behrouztakhti/spring-security/assets/6881159/8622133e-6af7-42b8-b65a-252831ee6d39)
+
 
 ## Schema
 ![schema](https://github.com/behrouztakhti/spring-security/assets/6881159/985eacbe-3efa-4516-a4d5-7d57f7d2bda4)
