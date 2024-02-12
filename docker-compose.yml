@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres-container
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /data/postgres
+    networks:
+      db_network:
+        ipv4_address: 192.168.0.2
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin-container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: behrouz.takhti@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: qaz@123
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    networks:
+      db_network:
+        ipv4_address: 192.168.0.3
+    ports:
+      - "2525:80"
+    restart: unless-stopped
+networks:
+  db_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.0.0/24
